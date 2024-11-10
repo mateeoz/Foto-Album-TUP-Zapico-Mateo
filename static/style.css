@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+header {
+  background-color: #20214f;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+h1,
+h2 {
+  margin: 0.5rem;
+}
+.photo {
+  background-color: #fff;
+  border: 1px solid #000000;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+#submit-button,
+#cancel-button,
+#edit-button,
+#delete-button,
+#add-button {
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 30px 5px 30px;
+  color: white;
+}
+#add-button {
+  margin: 10px;
+}
+.image-subcontainer {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 350px;
+  height: 400px;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.image-subcontainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-info {
+  border: 3px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+#main-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 10px;
+  height: auto;
+  border-radius: 20px;
+}
+.edit-image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#edit-image {
+  height: 100%;
+  border: 3px solid black;
+
+}
+#form-container {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.h5-text {
+  font-size: 17px;
+}
+.description-text {
+  font-size: 13px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}

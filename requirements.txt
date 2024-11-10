@@ -1,0 +1,7 @@
+flask
+flask-migrate
+SQLAlchemy
+pydantic
+pydantic[email]
+flask_wtf
+flask_sqlalchemy
